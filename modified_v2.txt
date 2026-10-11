@@ -1,0 +1,89 @@
+Processing: random_05.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 26/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Final Score: 26/100 -> REJECTED
+
+Processing: random_06.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.87 -> 26/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.11 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.07 -> 0/40 points
+Final Score: 26/100 -> REJECTED
+
+Processing: random_07.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.94 -> 28/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.04 -> 0/40 points
+Final Score: 28/100 -> REJECTED
+
+Processing: random_08.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.80 -> 24/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): FIRED - Match score 0.70 -> 28/40 points
+Final Score: 52/100 -> MATCH to original_09
+
+Processing: random_09.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.91 -> 27/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.15 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Final Score: 27/100 -> REJECTED
+
+Processing: random_10.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.91 -> 27/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Final Score: 27/100 -> REJECTED
+
+Processing: random_11.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.82 -> 25/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.31 -> 0/40 points
+Final Score: 25/100 -> REJECTED
+
+Processing: random_12.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.97 -> 29/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.04 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.03 -> 0/40 points
+Final Score: 29/100 -> REJECTED
+
+Processing: random_13.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.86 -> 26/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.00 -> 0/40 points
+Final Score: 26/100 -> REJECTED
+
+Processing: random_14.jpg
+Rule 1 (Metadata): FIRED - Size ratio 0.84 -> 25/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/40 points
+Final Score: 25/100 -> REJECTED
+
+Processing: random_noise_00.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.01 -> 0/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_01.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.01 -> 0/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_02.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.01 -> 0/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_03.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.01 -> 0/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.01 -> 0/40 points
+Final Score: 0/100 -> REJECTED
+
+Processing: random_noise_04.jpg
+Rule 1 (Metadata): NO MATCH - Size ratio 0.01 -> 0/30 points
+Rule 2 (Histogram): NO MATCH - Correlation 0.00 -> 0/30 points
+Rule 3 (Template): NO MATCH - Match score 0.02 -> 0/40 points
+Final Score: 0/100 -> REJECTED
