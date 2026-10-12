@@ -87,7 +87,7 @@ def rule1_metadata(target, input_path):
         in_w, in_h = _size(input_path) or (0, 0)
         size_ratio = min(src_size, in_size) / max(src_size, in_size)
         area_kept = (in_w * in_h) / max(1, src_w * src_h)
-        metric = 0.5 * size_ratio + 0.5 * min(1.0, area_kept)
+        metric = min(size_ratio, area_kept)/ max(size_ratio, area_kept)
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
         out["note"] = f"Size ratio {out['metric']:.2f}"
         if out["metric"] >= 0.6:
@@ -109,7 +109,7 @@ def rule2_histogram(target, input_path):
         corr = float(cv2.compareHist(hs, hi, cv2.HISTCMP_CORREL))
         out["metric"] = round(max(0.0, min(1.0, corr)), 3)
         out["note"] = f"Correlation {out['metric']:.2f}"
-        if out["metric"] >= 0.5:
+        if out["metric"] >= 0.8:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
     except Exception:
@@ -138,7 +138,7 @@ def rule3_template(target, input_path):
         metric = float(res.max())
         out["metric"] = round(max(0.0, min(1.0, metric)), 3)
         out["note"] = f"Match score {out['metric']:.2f}"
-        if out["metric"] >= 0.4:
+        if out["metric"] >= 0.8:
             out["fired"] = True
             out["score"] = int(round(out["out_of"] * out["metric"]))
     except Exception:
