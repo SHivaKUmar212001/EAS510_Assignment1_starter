@@ -102,10 +102,12 @@ Apache 2.0. See `LICENSE`.
 
 ## Design decision for V2: what Rule 4 is and why you chose it
 - I made the decision to chose SIFT just because it sounded nice in the ideas it was listed, I read about this thing and found that this just finds distinct spots near it and matches.
-- So, I thought if I could find the spots of the images and used KNN to like figure out which spots are nearer in the input image to that of the original and if I find any kind of correlation, I can achieve this.
-- So, that's what i did next, I used sift to find those spots, put the KNN algorithm to find the nearest neighbors and put them in an array. 
+- So, I thought if I could find the spots of the images and used KNN to find the distance and to figure out which spots are nearer in the input image to that of the original and if I find any kind of correlation, I can achieve this.
+- Hence, that's what i did next, I used sift to find those spots, put the KNN algorithm to find the nearest neighbors and put them in an array. 
 - I measured the distances of those spots and made an array of how many spots are matching with the original and based of that I put up a score. 
-- One more thing I did was I decreased the weights of the rules in V1 to 20,20 and 25% and gave the 35% weigtage to SIFT which was working well. 
+- Another thing I did was I decreased the weights of the rules in V1 to 20,20 and 25% and gave the 35% weightage to SIFT which was working well. 
+
+
 
 ## Effect of the change: accuracy before/after on easy vs hard
 - Before the accuracy was like 6/60 images being matched, now it jumped to 42 out of 60 images. 
